@@ -1,0 +1,20 @@
+version: 2 
+
+sources:
+  - name: qwt_raw
+    database: dbt_dev
+    schema: raw
+    tables:
+        - name: raw_customers
+        - name: raw_products
+        - name: raw_orders
+        - name: raw_orderdetails
+        - name: raw_employee
+        - name: raw_office
+        - name: raw_shipments
+        - name: raw_suppliers
+
+
+
+
+
