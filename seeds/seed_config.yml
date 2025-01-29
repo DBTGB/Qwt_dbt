@@ -1,9 +1,0 @@
-version: 2
-
-seeds:
-  - name: divisions
-    config:
-      schema: LOOKUP
-  - name: category
-    config:
-      schema: LOOKUP

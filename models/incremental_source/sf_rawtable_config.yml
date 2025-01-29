@@ -1,0 +1,10 @@
+version: 2 
+
+
+sources:
+  - name: raw_to_stg
+    database: dbt_dev
+    schema: raw_schema
+    tables:
+      - name: raw_table
+      

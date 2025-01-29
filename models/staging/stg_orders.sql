@@ -11,3 +11,4 @@ select * from {{ source('qwt_raw', 'raw_orders') }}
     -- this filter will only be applied on an incremental run
     where order_date > (select max(order_date) from {{ this }}) 
 {% endif %}
+
